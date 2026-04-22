@@ -1,4 +1,4 @@
-ARG BUILD_FROM="alpine"
+ARG BUILD_FROM="alpine:latest"
 FROM $BUILD_FROM
 
 LABEL maintainer="ex-ml <ex_ml@sent.com>"
