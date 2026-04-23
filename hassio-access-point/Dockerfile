@@ -11,10 +11,10 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 ENV LANG=C.UTF-8
 
-COPY hostapd.conf /
-COPY dnsmasq.conf /
+COPY hostapd.conf /hostapd.conf
+COPY dnsmasq.conf /dnsmasq.conf
 
-COPY run.sh /
+COPY run.sh /run.sh
 RUN chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
