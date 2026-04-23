@@ -1,7 +1,8 @@
 # Changelog
-## [0.5.4.2] - 2026-03-22
+## [0.5.4.3] - 2026-03-22
 
 Bugfixes
+Switch base image from alpine to homeassistant base image
 
 ## [0.5.4] - 2025-11-03
 
